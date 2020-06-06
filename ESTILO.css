@@ -1,0 +1,127 @@
+body{
+    font-family: monospace, fantasy;
+    font-size: 14;
+    background-image:url(fonfo0.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: inherit;
+    text-align:center;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+h1{
+    font-family:cursive;
+    text-align: center;
+    color: white;
+    background: #071F45;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background:#071F45;
+	width:90%;
+    max-width: 1000px;
+	margin:auto;
+}
+.menu li a{
+	text-decoration:inherit;
+	color: white;
+	padding: 10px;
+	display: block;
+    
+}
+.menu li{
+	display: inline-table;
+	text-align: center;
+}
+.menu li a:hover{
+    background: #727EF8;
+    
+}
+.a{
+    border-color: black;
+}
+p{
+    color:white;
+    text-align: left;
+}
+.listas{
+    color: white;
+    text-align: left;
+}
+h2,h3{
+    background-color: #071F45;
+    color:white;
+    text-align: left;
+    
+    
+}
+.preguntas{
+    background-color:#428AFC;
+    color: black;
+}
+.respuestas{
+    color: white;
+    font-family: cursive;
+    text-align: left;
+}
+.pretest{
+    background-color: #07CE0F; 
+    text-align: left;
+}
+.restest{
+    color: white;
+    text-align: left;
+}
+.test{
+    text-align: center;
+    color: black;
+    background-color: #07CE0F;
+}
+.lin{
+    color: aquamarine
+}
+@media screen and (max-width: 700px) {
+    iframe{
+       width: auto;
+       height: 100%;
+    }
+    img{
+        width: auto;
+       height: 300px;
+    }
+    li,p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .lin{
+        font-size: 10px;
+    }
+    table{
+        border:1px;
+    }
+    td{
+        font-size: 10px;
+    }
+    .pretest{
+        font-size: 15px;
+    }
+    .restest{
+        font-size: 12px;
+    }
+    footer{
+        font-size: 15px;
+    }
+}
